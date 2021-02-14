@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  /* background-image: url('./img/bg-pattern.png'); */
+  background: linear-gradient(to top left, powderblue, pink);
+  background-repeat: no-repeat;
+}
+
+ul {
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countries__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 65%;
+  height: 40px;
+}
+
+.countries-item {
+  display: flex;
+  justify-content: center;
+}
+
+.flag {
+  display: inline-flex;
+  margin-left: 100px;
+}
